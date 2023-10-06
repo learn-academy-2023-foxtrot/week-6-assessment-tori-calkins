@@ -6,10 +6,10 @@
 
 # FILE: app/controller/blog_posts_controller.rb
 
-# ---1)
+# ---1)This is a controller called BlogPostController(child class) that inherits the controls from the ApplicationController (parent class). It manages the MVC (views, models) and how they interact with each other using the functionality of routes. 
 class BlogPostsController < ApplicationController
   def index
-    # ---2)
+    # ---2)it creates an instance variable that will hold a list of all the data entries inside the model database
     @posts = BlogPost.all
   end
 

@@ -13,17 +13,33 @@
 // --------------------1) Create a function that takes in an array of objects and returns an array with a sentence about each person with their name capitalized.
 
 // a) Create a test with an expect statement using the variable provided.
-
-const hitchhikersCharacters = [
-  { name: "ford prefect", occupation: "a hitchhiker" },
-  { name: "zaphod beeblebrox", occupation: "president of the galaxy" },
-  { name: "arthur dent", occupation: "a radio employee" }
-]
-// Expected output: ["Ford Prefect is a hitchhiker.", "Zaphod Beeblebrox is president of the galaxy.", "Arthur Dent is a radio employee."]
+// describe("CapArray", () => {
+//   it("returns an array with a sentence about each person with their name capitalized.", () => {
+    const hitchhikersCharacters = [
+      { name: "ford prefect", occupation: "a hitchhiker" },
+      { name: "zaphod beeblebrox", occupation: "president of the galaxy" },
+      { name: "arthur dent", occupation: "a radio employee" }
+    ]
+    // Expected output: ["Ford Prefect is a hitchhiker.", "Zaphod Beeblebrox is president of the galaxy.", "Arthur Dent is a radio employee."]
+//     expect(CapArray(hitchhikersCharacters)).toEqual(["Ford Prefect is a hitchhiker.", "Zaphod Beeblebrox is president of the galaxy.", "Arthur Dent is a radio employee."])
+//   })
+// })
+//good failure: ReferenceError: CapArray is not defined
 
 // b) Create the function that makes the test pass.
+const CapArray = (array) => {
+  return array.map((value) => {
+    return `${value.name} is ${value.occupation}`
+  })
+}
+console.log(CapArray(hitchhikersCharacters))
+
 
 // Pseudo code:
+// function name: CapArray
+// input: array of objects
+// output: an array of strings
+// process: create a function, 
 
 // --------------------2) Create a function that takes in a mixed data array and returns an array of only the REMAINDERS of the numbers when divided by 3.
 
