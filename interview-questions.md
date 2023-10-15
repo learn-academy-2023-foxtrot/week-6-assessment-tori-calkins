@@ -46,22 +46,22 @@ action: "DELETE" location: /students/2 --> delete. This would delete/destroy the
 
 5. As a developer, you are making an application to manage your to do list. Create 10 user stories that will help you get your application started. [Here is a resource](https://www.atlassian.com/agile/project-management/user-stories) to help you create your user stories.
 
-story 1)
+Story 1: As a user, I want to be able to create a new to-do item so that I can add tasks I need to complete.
 
-story 2)
+story 2: As a user, I want to be able to set a due date for each to-do item to prioritize my tasks effectively.
 
-story 3)
+Story 3: As a user, I want the ability to create recurring to-do items, such as daily, weekly, or monthly tasks, to help me manage repetitive responsibilities.
 
-story 4)
+story 4: As a user, I want to categorize/organize my to-do items by specific projects or contexts.
 
-story 5)
+Story 5: As a user, I want to mark a to-do item as completed when I have finished the task.
 
-story 6)
+Story 6: As a user, I want to edit the description, due date, or category of an existing to-do item in case details change.
 
-story 7)
+Story 7: As a user, I want to be able to delete to-do items I no longer need.
 
-story 8)
+Story 8: As a user, I want to view a list of ALL my to-do items, sorted by due date or priority, so I can see what is coming up. 
 
-story 9)
+Story 9: As a user, I want to be able to search or filter my to-do list to quickly find specific tasks.
 
-story 10)
+Story 10: As a user, I want to receive notifications or reminders for approaching due dates to help me stay on track. (Not exactly sure how I would do this last one but based off my reminder app, getting notifications is my key to getting my to-do list done so I added that to this last story)
